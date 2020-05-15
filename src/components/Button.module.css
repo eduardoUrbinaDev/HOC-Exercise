@@ -1,0 +1,36 @@
+.buttonBase {
+  padding: 20px 30px;
+  color: white;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px;
+  height: 80px;
+}
+
+.primary{
+  background-color: #AEAEFD;
+  composes: buttonBase;
+}
+
+.primary:hover{
+  background-color: #9696FB;
+}
+
+.warning{
+  background-color: #FEBC50;
+  composes: buttonBase;
+}
+
+.warning:hover{
+  background-color: #DFA341;
+}
+
+.error{
+  background-color: #FF5454;
+  composes: buttonBase;
+}
+
+.error:hover{
+  background-color: #D74747;
+}
